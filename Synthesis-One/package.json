@@ -1,0 +1,9 @@
+{
+  "name": "new-project",
+  "author": "VRChatLife",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "autocode-discordjs": "^1.1.0"
+  }
+}

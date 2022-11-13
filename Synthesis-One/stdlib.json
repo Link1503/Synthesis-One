@@ -1,0 +1,65 @@
+{
+  "name": "VRChatLife/status-changer-command",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/status.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "status"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/autocode/self/deployed0.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command/love.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "love"
+      }
+    },
+    "functions/events/discord/command/sendlove.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "sendlove"
+      }
+    },
+    "*:b4f96f2e-e5c6-484a-a44d-294dc017630b": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "sendlove"
+      }
+    },
+    "functions/events/discord/command/test.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "test"
+      }
+    },
+    "functions/events/discord/command/say-to.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "say-to"
+      }
+    },
+    "functions/events/discord/command/say.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "say"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "ROLE_ID",
+      "description": "The ID of the role which grants access to the command."
+    },
+    {
+      "name": "GUILD_ID",
+      "description": "The ID of your guild."
+    }
+  ]
+}
